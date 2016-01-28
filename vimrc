@@ -1,4 +1,4 @@
-
+" File encodings
 set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 " When started as "evim", evim.vim will already have done these settings.
 if v:progname =~? "evim"
@@ -20,7 +20,7 @@ set noswapfile
 set backspace=indent,eol,start
 
 set number
-set history=50		" keep 50 lines of command line history
+set history=100		" keep 100 lines of command line history
 set ruler		" show the cursor position all the time
 set showcmd		" display incomplete commands
 set incsearch		" do incremental searching
